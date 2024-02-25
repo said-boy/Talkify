@@ -22,7 +22,7 @@ func Run() {
 		controller.StartRecord()
 		
 		fmt.Println("Wait...")
-		resp := api.SendWitVoice("data/rekaman.wav")
+		resp := api.SendWitVoice("data/rec.wav")
 
 		var entityWit entitiy.Wit
 
